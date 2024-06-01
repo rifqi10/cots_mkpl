@@ -13,23 +13,23 @@ public class Driver {
         
         Counter counter = new Counter();
         
-        System.out.println("Current value: " + counter.getValue());
+        System.out.println("Hasil: " + counter.getValue());
         
         counter.add();
         
-        System.out.println("Current value: " + counter.getValue());
+        System.out.println("Hasil: " + counter.getValue());
         
         counter.subtract();
         
-        System.out.println("Current value: " + counter.getValue());
+        System.out.println("Hasil: " + counter.getValue());
         
         counter.addBy(5);
         
-        System.out.println("Current value: " + counter.getValue());
+        System.out.println("Hasil: " + counter.getValue());
         
         counter.subtractBy(2);
         
-        System.out.println("Current value: " + counter.getValue());
+        System.out.println("Hasil: " + counter.getValue());
     }
 
 }
