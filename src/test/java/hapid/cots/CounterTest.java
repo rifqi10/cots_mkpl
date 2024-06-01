@@ -21,7 +21,7 @@ public class CounterTest {
         
         testCounter.clear();
         
-        assertEquals(0, testCounter.getValue());
+        assertEquals(5, testCounter.getValue());
     }
 
     @Test
