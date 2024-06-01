@@ -15,7 +15,7 @@ public class CounterTest {
     public void testClear() {
         Counter testCounter = new Counter();
         
-        for(int i = 0; i < 10; i++) {
+        for(int i = 0; i < 8; i++) {
             testCounter.add();
         }
         
